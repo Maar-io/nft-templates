@@ -1,0 +1,8 @@
+## Bonbon
+metadata
+bafybeid7m6zourukghb3uajd45qo4seuny3rpdyuy6yhjfp6ja3d6pgy2e
+https://nftstorage.link/ipfs/bafybeid7m6zourukghb3uajd45qo4seuny3rpdyuy6yhjfp6ja3d6pgy2e
+
+images
+bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a
+https://nftstorage.link/ipfs/bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a

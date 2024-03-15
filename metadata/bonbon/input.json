@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Bonbon Girl#1",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/1.jpg",
+    "attributes": [
+      {
+        "trait_type": "Spirit",
+        "value": "Wild"
+      },
+      {
+        "trait_type": "Dream",
+        "value": "Yellow"
+      }
+    ]
+  },
+  {
+    "name": "Bonbon Girl#2",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/2.jpg",
+    "attributes": [
+      {
+        "trait_type": "Spirit",
+        "value": "Lazy"
+      },
+      {
+        "trait_type": "Dream",
+        "value": "Green"
+      }
+    ]
+  },
+  {
+    "name": "Bonbon Girl#3",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/3.jpg",
+    "attributes": [
+      {
+        "trait_type": "Spirit",
+        "value": "Letargic"
+      },
+      {
+        "trait_type": "Dream",
+        "value": "Blue"
+      }
+    ]
+  },
+  {
+    "name": "Bonbon Girl#4",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/4.jpg",
+    "attributes": [
+      {
+        "trait_type": "Spirit",
+        "value": "Happy"
+      },
+      {
+        "trait_type": "Dream",
+        "value": "Red"
+      }
+    ]
+  },
+  {
+    "name": "Bonbon Girl#1",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/5.jpg",
+    "attributes": [
+      {
+        "trait_type": "Spirit",
+        "value": "Wild"
+      },
+      {
+        "trait_type": "Dream",
+        "value": "Colourful"
+      }
+    ]
+  }
+]

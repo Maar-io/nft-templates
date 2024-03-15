@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract Bonbon is ERC721A, ERC2981, AccessControl {
+contract Bonbon is ERC721A, ERC2981, AccessControl, Ownable {
     using Strings for uint256;
 
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
@@ -33,7 +33,7 @@ contract Bonbon is ERC721A, ERC2981, AccessControl {
         string memory name,
         string memory symbol,       // uint256 initCost,
         uint256 initMaxSupply
-    ) ERC721A(name, symbol)
+    ) ERC721A(name, symbol) Ownable(msg.sender)
     {
         // cost = initCost;
         maxSupply = initMaxSupply;

@@ -1,0 +1,15 @@
+{
+    "name": "Bonbon Girl#4",
+    "description": "Bonbon Girl test collection",
+    "image": "ipfs://bafybeicu6ndqq6ug7bxntukboz6wlxb7ziy53nv6imjerrr52mkhpxz24a/4.jpg",
+    "attributes": [
+        {
+            "trait_type": "Spirit",
+            "value": "Happy"
+        },
+        {
+            "trait_type": "Dream",
+            "value": "Red"
+        }
+    ]
+}
