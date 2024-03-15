@@ -1,4 +1,17 @@
 // SPDX-License-Identifier: MIT
+
+/**
+██████╗  ██████╗ ███╗   ██╗██████╗  ██████╗ ███╗   ██╗
+██╔══██╗██╔═══██╗████╗  ██║██╔══██╗██╔═══██╗████╗  ██║
+██████╔╝██║   ██║██╔██╗ ██║██████╔╝██║   ██║██╔██╗ ██║
+██╔══██╗██║   ██║██║╚██╗██║██╔══██╗██║   ██║██║╚██╗██║
+██████╔╝╚██████╔╝██║ ╚████║██████╔╝╚██████╔╝██║ ╚████║
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
+                     G I R L S
+
+Version: 1.0.0
+*/
+
 pragma solidity ^0.8.20;
 
 import "erc721a/contracts/ERC721A.sol";
@@ -69,7 +82,7 @@ contract Bonbon is ERC721A, ERC2981, AccessControl, Ownable {
                 ? string(
                     abi.encodePacked(
                         baseURI,
-                        tokenId.toString(),
+                        (tokenId % 5 == 0 ? 5 : tokenId % 5).toString(),
                         baseExtension
                     )
                 )
