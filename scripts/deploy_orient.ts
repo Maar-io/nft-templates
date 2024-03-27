@@ -1,13 +1,15 @@
-// npx hardhat run --network zKatana scripts/deploy.ts
+// npx hardhat run --network zKatana scripts/deploy-orient.ts
 
 require('dotenv').config();
 import { ethers } from "hardhat";
 import * as dotenv from "dotenv";
 
 dotenv.config({ path: __dirname + "/.env" });
-const NAME = "Bonbon";
-const SYMBOL = "BON";
-const MAX_SUPPLY = 10000;
+const NAME = "Orient Express";
+const SYMBOL = "ORIENT";
+const MAX_SUPPLY = 5000;
+const PRICE = ethers.parseEther("0.003");
+const MINT_LIMIT = 3;
 
 async function main() {
     // Set up the deployer account using the private key from the config file
@@ -18,7 +20,7 @@ async function main() {
     console.log("Deploying contracts with the account:", wallet.address);
 
     // Deploy the contract
-    const contract = await ethers.deployContract("Bonbon", [ NAME, SYMBOL, MAX_SUPPLY]);
+    const contract = await ethers.deployContract("Orient", [ NAME, SYMBOL, PRICE, MINT_LIMIT, MAX_SUPPLY]);
 
     await contract.waitForDeployment();
 

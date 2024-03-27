@@ -1,0 +1,15 @@
+{
+    "name": "Orient Express#1",
+    "description": "Orient Express test payable collection",
+    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/1.jpg",
+    "attributes": [
+        {
+            "trait_type": "Conditions",
+            "value": "Evening"
+        },
+        {
+            "trait_type": "Train",
+            "value": "ZK-1234"
+        }
+    ]
+}

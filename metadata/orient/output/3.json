@@ -1,0 +1,15 @@
+{
+    "name": "Orient Express#3",
+    "description": "Orient Express test payable collection",
+    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/3.jpg",
+    "attributes": [
+        {
+            "trait_type": "Conditions",
+            "value": "Summer"
+        },
+        {
+            "trait_type": "Train",
+            "value": "19"
+        }
+    ]
+}
