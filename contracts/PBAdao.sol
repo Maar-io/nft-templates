@@ -69,6 +69,14 @@ contract PBADAO is
                 : "";
     }
 
+    /**
+     * @dev Set a new URI for all token types, by relying on the
+     * token type ID substitution mechanism
+     */
+    function setURI(string memory newuri) public onlyRole(ADMIN_ROLE) {
+        baseURI = newuri;
+    }
+
     function withdraw() external onlyOwner {
         uint256 balance = address(this).balance;
         (bool transferTx, ) = msg.sender.call{value: balance}("");

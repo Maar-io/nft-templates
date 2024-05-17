@@ -48,6 +48,14 @@ describe("Orient Express contract", function () {
 
   });
 
+
+  it("mint failed for non minter", async function () {
+    const [owner, account1] = await ethers.getSigners();
+
+    await expect(pbadao.connect(account1).mint(account1.address, 1, { value: PRICE })).to.be.revertedWithCustomError(pbadao, "AccessControlUnauthorizedAccount");
+    expect(await pbadao.totalSupply()).to.equal(0);
+  });
+
   it("Should return correct tokenURI", async function () {
     const [owner, account1] = await ethers.getSigners();
     const baseURI = await pbadao.baseURI();
@@ -61,6 +69,19 @@ describe("Orient Express contract", function () {
       const tokenURI = await pbadao.uri(i);
       expect(tokenURI).to.equal(expectedURI);
     }
+  });
+
+  it("SetUri works", async function () {
+    const [owner, account1] = await ethers.getSigners();
+
+    const newUri = "newURI";
+    const baseURI = await pbadao.baseURI();
+    expect(baseURI).to.equal(BASE_URI);
+
+    await pbadao.setURI(newUri);
+    const newBaseUri = await pbadao.baseURI();
+
+    expect(newBaseUri).to.equal(newUri);
   });
 
 
