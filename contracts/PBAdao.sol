@@ -21,8 +21,8 @@ contract PBADAO is
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
     bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
-    string public constant name = "PBADAO GACHA COLLECTION x ASTAR";
-    string public constant symbol = "GACHA";
+    string public name;
+    string public symbol;
     uint256 public price = 0.0008 ether;
     string public baseURI;
     string public baseExtension;
@@ -39,6 +39,8 @@ contract PBADAO is
         _grantRole(ADMIN_ROLE, msg.sender);
         baseURI = "ipfs://QmVvj73kum2jZMTrAZbFyYa6n4egYexK4bXhdTbCgG5Bbz/";
         baseExtension = ".json";
+        name = "PBADAO GACHA COLLECTION x ASTAR";
+        symbol = "GACHA";
     }
 
     function mint(
