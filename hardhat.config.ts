@@ -50,11 +50,16 @@ const config: HardhatUserConfig = {
       url: `https://rpc.startale.com/astar-zkevm`,
       accounts: [ACCOUNT_PRIVATE_KEY]
     },
+    optimism: {
+      url: `https://mainnet.optimism.io`,
+      accounts: [ACCOUNT_PRIVATE_KEY]
+    }
   },
   etherscan: {
     apiKey: {
       zKyoto: " ",
-      astarZkEvm: " "
+      astarZkEvm: " ",
+      optimism: " ",
     },
     customChains: [
       {
@@ -72,7 +77,15 @@ const config: HardhatUserConfig = {
           apiURL: "https://astar-zkevm.explorer.startale.com/api",
           browserURL: "https://astar-zkevm.explorer.startale.com/",
         },
-      }
+      },
+      {
+        network: "optimism",
+        chainId: 10,
+        urls: {
+          apiURL: "https://optimism.blockscout.com/api",
+          browserURL: "https://optimism.blockscout.com/",
+        },
+      },
     ],
   },
 };

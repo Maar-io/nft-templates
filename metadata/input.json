@@ -1,91 +1,56 @@
 [
   {
-    "name": "Orient Express#1",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/1.jpg",
+    "name": "Albert#1",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/1.png",
     "attributes": [
       {
-        "trait_type": "Conditions",
-        "value": "Evening"
-      },
-      {
-        "trait_type": "Train",
-        "value": "ZK-1234"
+        "trait_type": "Achievement",
+        "value": "Theory of Special Relativity (1905)"
       }
     ]
   },
   {
-    "name": "Orient Express#2",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/2.jpg",
+    "name": "Albert#2",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/2.png",
     "attributes": [
       {
-        "trait_type": "Conditions",
-        "value": "Night"
-      },
-      {
-        "trait_type": "Train",
-        "value": "Bled-Express"
+        "trait_type": "Achievement",
+        "value": "Mass-Energy Equivalence (E=mc²)"
       }
     ]
   },
   {
-    "name": "Orient Express#3",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/3.jpg",
+    "name": "Albert#3",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/3.png",
     "attributes": [
       {
-        "trait_type": "Conditions",
-        "value": "Summer"
-      },
-      {
-        "trait_type": "Train",
-        "value": "19"
+        "trait_type": "Achievement",
+        "value": "Theory of General Relativity (1915)"
       }
     ]
   },
   {
-    "name": "Orient Express#4",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/4.jpg",
+    "name": "Albert#4",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/4.png",
     "attributes": [
       {
-        "trait_type": "Conditions",
-        "value": "Autumn"
-      },
-      {
-        "trait_type": "Train",
-        "value": "QR-800"
+        "trait_type": "Achievement",
+        "value": "Photoelectric Effect (1905)"
       }
     ]
   },
   {
-    "name": "Orient Express#5",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/5.jpg",
+    "name": "Albert#5",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/5.png",
     "attributes": [
       {
-        "trait_type": "Conditions",
-        "value": "Night"
-      },
-      {
-        "trait_type": "Train",
-        "value": "PR-777"
-      }
-    ]
-  },
-  {
-    "name": "Orient Express#5",
-    "description": "Orient Express test payable collection",
-    "image": "ipfs://bafybeiearfm2ttmheeg2frqsvgwronynjmlyjxq5ln4n5o5c4fbpc5ez4a/6.jpg",
-    "attributes": [
-      {
-        "trait_type": "Conditions",
-        "value": "Snow"
-      },
-      {
-        "trait_type": "Train",
-        "value": "SW-44"
+        "trait_type": "Achievement",
+        "value": "Bose-Einstein Condensate"
       }
     ]
   }

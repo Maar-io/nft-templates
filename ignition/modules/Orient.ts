@@ -1,4 +1,5 @@
 // npx hardhat ignition deploy ignition/modules/Orient.ts --network zKyoto --verify
+// npx hardhat ignition deploy ignition/modules/Orient.ts --network optimism --verify
 
 import { ethers } from "hardhat";
 

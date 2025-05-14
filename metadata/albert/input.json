@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Albert#1",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/1.png",
+    "attributes": [
+      {
+        "trait_type": "Achievement",
+        "value": "Theory of Special Relativity (1905)"
+      }
+    ]
+  },
+  {
+    "name": "Albert#2",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/2.png",
+    "attributes": [
+      {
+        "trait_type": "Achievement",
+        "value": "Mass-Energy Equivalence (E=mc²)"
+      }
+    ]
+  },
+  {
+    "name": "Albert#3",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/3.png",
+    "attributes": [
+      {
+        "trait_type": "Achievement",
+        "value": "Theory of General Relativity (1915)"
+      }
+    ]
+  },
+  {
+    "name": "Albert#4",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/4.png",
+    "attributes": [
+      {
+        "trait_type": "Achievement",
+        "value": "Photoelectric Effect (1905)"
+      }
+    ]
+  },
+  {
+    "name": "Albert#5",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/5.png",
+    "attributes": [
+      {
+        "trait_type": "Achievement",
+        "value": "Bose-Einstein Condensate"
+      }
+    ]
+  }
+]

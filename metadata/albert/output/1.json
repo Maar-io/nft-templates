@@ -1,0 +1,11 @@
+{
+    "name": "Albert#1",
+    "description": "Collection of achievements",
+    "image": "ipfs://bafybeibyk6jygqqgkgc3ofxxbpek736ondkhcehngsa5aw4ngof52v52qm/1.png",
+    "attributes": [
+        {
+            "trait_type": "Achievement",
+            "value": "Theory of Special Relativity (1905)"
+        }
+    ]
+}
